@@ -1,0 +1,51 @@
+{
+  "name": "template-typescript",
+  "version": "0.0.0",
+  "author": "Doray <open@doray.dev>",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/lib.umd.cjs",
+  "module": "./dist/lib.js",
+  "exports": {
+    ".": {
+      "import": "./dist/lib.js",
+      "require": "./dist/lib.umd.cjs"
+    }
+  },
+  "//1": "Due to yarn2+, we have to use 'postinstall' script to install husky",
+  "scripts": {
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "test": "vitest run",
+    "test:dev": "vitest dev",
+    "coverage": "vitest run --coverage",
+    "postinstall": "is-ci || husky install",
+    "plop": "plop"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@types/node": "^20.5.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.0",
+    "is-ci": "^3.0.1",
+    "lint-staged": "^14.0.1",
+    "plop": "^3.1.2",
+    "prettier": "3.0.2",
+    "typescript": "~5.1.0",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.5.3",
+    "vite-tsconfig-paths": "^4.2.0",
+    "vitest": "^0.34.3"
+  },
+  "packageManager": "yarn@3.6.3",
+  "engines": {
+    "node": ">=16"
+  },
+  "engineStrict": true
+}

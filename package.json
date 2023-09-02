@@ -1,8 +1,12 @@
 {
-  "name": "template-typescript",
+  "name": "@dillage/testing-template-typescript",
   "version": "0.0.0",
   "author": "Doray <open@doray.dev>",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dorayx/template-typescript.git"
+  },
   "files": [
     "dist"
   ],
@@ -22,11 +26,14 @@
     "test:dev": "vitest dev",
     "coverage": "vitest run --coverage",
     "postinstall": "is-ci || husky install",
-    "plop": "plop"
+    "plop": "plop",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "@types/node": "^20.5.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
@@ -37,6 +44,8 @@
     "lint-staged": "^14.0.1",
     "plop": "^3.1.2",
     "prettier": "3.0.2",
+    "semantic-release": "^21.1.1",
+    "semantic-release-yarn": "^2.0.1",
     "typescript": "~5.1.0",
     "vite": "^4.4.5",
     "vite-plugin-dts": "^3.5.3",

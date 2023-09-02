@@ -36,3 +36,11 @@ and so I've created this repo as a starting point for my future projects.
 **Code Generator**
 
 - [Plop](https://plopjs.com/)
+
+**Publish**
+
+- [semantic-release](https://semantic-release.gitbook.io/)
+  - GitHub Action: `.github/workflows/release-package.yml`
+  - Env Variables: `NPM_TOKEN` is required to publish a package to the npm registry
+  - Additional Plugin: [semantic-release-yarn](https://github.com/hongaar/semantic-release-yarn)
+  - Additional Plugin: [@semantic-release/changelog](https://github.com/semantic-release/changelog)

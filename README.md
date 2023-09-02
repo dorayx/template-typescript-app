@@ -3,6 +3,12 @@
 This template is opinionated, and it is not meant to be a one-size-fits-all solution.
 It is meant to be a starting point for my personal projects to bootstrap development, as I like to create minimal viable products from time to time.
 
+## User Cases
+
+- ✅ TypeScript Application
+- ❌ TypeScript Library
+- ❌ UI Component Library
+
 ## Features
 
 - ✅ TypeScript v5
@@ -12,12 +18,6 @@ It is meant to be a starting point for my personal projects to bootstrap develop
 - ✅ Semantic Release
 - ✅ GitHub Actions
 - ❌ Monorepo
-
-**Use Cases**
-
-- ✅ TypeScript Application
-- ❌ TypeScript Library
-- ❌ UI Component Library
 
 ## Tooling
 
@@ -33,12 +33,12 @@ This template is configured with the following tools:
 **Package Manager**
 
 - [Yarn](https://yarnpkg.com/) _(v3)_
-  - Doc: [Zero-installs](https://www.npmjs.com/package/vite-tsconfig-paths)
+  - Doc: [Zero-installs](https://yarnpkg.com/features/caching#zero-installs)
 
 **Testing**
 
 - [Vitest](https://vitest.dev/)
-  - Convention: Unit tests for user cases are stored in the `tests/units` directory.
+  - Convention: Unit tests for user cases are stored in the `tests/units` directory
   - Convention: Unit tests for individual functions are placed alongside their respective implementations ([In-source testing](https://vitest.dev/guide/in-source.html))
   - Convention: The file `tests/setup.ts` is executed before each test file
   - Convention: The `tests/tsconfig.json` file configures TypeScript for testing
@@ -54,11 +54,11 @@ This template is configured with the following tools:
 
 **Code Generator**
 
-- [Plop](https://plopjs.com/)
+- [Plop](https://plopjs.com/): A micro-generator framework that makes it easy for an entire team to create files with a level of uniformity
 
 **Publish**
 
-- [semantic-release](https://semantic-release.gitbook.io/)
+- [semantic-release](https://semantic-release.gitbook.io/): Fully automated version management and package publishing
   - GitHub Action: `.github/workflows/release-package.yml`
   - Env Variables: `NPM_TOKEN` is required to publish a package to the npm registry
   - Additional Plugin: [semantic-release-yarn](https://github.com/hongaar/semantic-release-yarn)

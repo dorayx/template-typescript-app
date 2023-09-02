@@ -1,14 +1,27 @@
-# _opinionated_ TypeScript Template
+# _opinionated_ Vite-TypeScript Template
 
-Since I like to create minimal viable products from time to time, having a personal boilerplate for TypeScript projects can boost efficiency,
-and so I've created this repo as a starting point for my future projects.
+This template is opinionated, and it is not meant to be a one-size-fits-all solution.
+It is meant to be a starting point for my personal projects to bootstrap development, as I like to create minimal viable products from time to time.
+
+## Features
+
+- ✅ TypeScript v5
+- ✅ Vite + Vitest
+- ✅ Linters
+- ✅ Code Generator
+- ✅ Semantic Release
+- ✅ GitHub Actions
+- ❌ Monorepo
+
+**Use Cases**
+
+- ✅ TypeScript Application
+- ❌ TypeScript Library
+- ❌ UI Component Library
 
 ## Tooling
 
-**Package Manager**
-
-- [Yarn](https://yarnpkg.com/) _(v3)_
-  - Doc: [Zero-installs](https://www.npmjs.com/package/vite-tsconfig-paths)
+This template is configured with the following tools:
 
 **Compiler & Bundler**
 
@@ -16,6 +29,11 @@ and so I've created this repo as a starting point for my future projects.
 - [Vite](https://vitejs.dev/) _(v4)_
   - Plugin: [vite-tsconfig-paths](https://www.npmjs.com/package/vite-tsconfig-paths)
   - Plugin: [vite-plugin-dts](https://www.npmjs.com/package/vite-plugin-dts)
+
+**Package Manager**
+
+- [Yarn](https://yarnpkg.com/) _(v3)_
+  - Doc: [Zero-installs](https://www.npmjs.com/package/vite-tsconfig-paths)
 
 **Testing**
 
@@ -46,7 +64,7 @@ and so I've created this repo as a starting point for my future projects.
   - Additional Plugin: [semantic-release-yarn](https://github.com/hongaar/semantic-release-yarn)
   - Additional Plugin: [@semantic-release/changelog](https://github.com/semantic-release/changelog)
 
-## Development
+## Development Conventions
 
 ### Branches
 

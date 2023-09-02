@@ -45,3 +45,11 @@ and so I've created this repo as a starting point for my future projects.
   - Env Variables: `NPM_TOKEN` is required to publish a package to the npm registry
   - Additional Plugin: [semantic-release-yarn](https://github.com/hongaar/semantic-release-yarn)
   - Additional Plugin: [@semantic-release/changelog](https://github.com/semantic-release/changelog)
+
+## Development
+
+### Branches
+
+- `main`: Used for stable features & production releases
+- `dev`: Used for features under development
+- `next`: Used for experimental features

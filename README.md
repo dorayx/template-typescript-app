@@ -6,7 +6,7 @@ It is meant to be a starting point for my personal projects to bootstrap develop
 ## User Cases
 
 - ✅ TypeScript Application
-- ❌ TypeScript Library
+- ❌ TypeScript Library _(use [dorayx/template-typescript-library](https://github.com/dorayx/template-typescript-library) instead)_
 - ❌ UI Component Library
 
 ## Features

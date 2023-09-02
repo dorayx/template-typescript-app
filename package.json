@@ -1,11 +1,11 @@
 {
-  "name": "@dillage/testing-template-typescript",
+  "name": "@dillage/template-typescript-app",
   "version": "0.0.0",
   "author": "Doray <open@doray.dev>",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dorayx/template-typescript.git"
+    "url": "https://github.com/dorayx/template-typescript-app.git"
   },
   "files": [
     "dist"

@@ -24,6 +24,7 @@ and so I've created this repo as a starting point for my future projects.
   - Convention: Unit tests for individual functions are placed alongside their respective implementations ([In-source testing](https://vitest.dev/guide/in-source.html))
   - Convention: The file `tests/setup.ts` is executed before each test file
   - Convention: The `tests/tsconfig.json` file configures TypeScript for testing
+- GitHub Action: `.github/workflows/test.yml`
 
 **Linters**
 

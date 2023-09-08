@@ -314,7 +314,7 @@ __metadata:
     "@typescript-eslint/parser": ^6.0.0
     eslint: ^8.45.0
     eslint-config-prettier: ^9.0.0
-    eslint-plugin-ts-export-naming-convention: ^1.0.0
+    eslint-plugin-ts-export-naming-convention: ^1.0.1
     husky: ^8.0.0
     is-ci: ^3.0.1
     lint-staged: ^14.0.1
@@ -3263,13 +3263,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-ts-export-naming-convention@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "eslint-plugin-ts-export-naming-convention@npm:1.0.0"
+"eslint-plugin-ts-export-naming-convention@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "eslint-plugin-ts-export-naming-convention@npm:1.0.1"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ">=6"
     eslint: ">=8"
-  checksum: 1dd28aa2236e9cb90eb32782ad6a5e72bfc1873d0edf9e859dc902dc103d11abb1a3ab2c82789c6ae51af3d991b4e54e240faf805089e29779f413078d6d01b5
+  checksum: 35e1874cd69ffacefdfdeb7e9dbf585030f57b6f7ab4ea029ed3bf722c278171f9364d99c5b97487358427fff9b3d7cbca5430e15806b7bf5e3a483b9e2995ca
   languageName: node
   linkType: hard
 
